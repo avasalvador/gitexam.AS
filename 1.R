@@ -62,7 +62,3 @@ rare_per_year <- merged %>%
 
 write_csv(rare_per_year, "rare_per_year.csv")
 
-# 9. Optional Validation
-# These should return 0 rows if the filter worked correctly
-# rare_overall %>% count(species_code) %>% filter(n > 1)
-# rare_per_year %>% count(species_code, Year) %>% filter(n > 1)
