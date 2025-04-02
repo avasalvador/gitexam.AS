@@ -26,12 +26,6 @@
 # 1. Load Libraries
 library(tidyverse)
 
-# 2. Accept CSV file inputs from command line
-args <- commandArgs(trailingOnly = TRUE)
-
-if (length(args) == 0) {
-  stop("Please provide one or more CSV files as arguments.")
-}
 
 # 3. Read and combine observation files
 obs_list <- lapply(args, read_csv)
