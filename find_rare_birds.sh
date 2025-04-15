@@ -1,4 +1,5 @@
-#Andrew made a change for challeneg 2
+#Andrew made a change for challenge 2
+#Ava made change to first line
 #Andrew made first change here
 nano find_rare_birds
 #!/bin/bash
